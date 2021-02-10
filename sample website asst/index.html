@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <div class="sample">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="sample__title-left">
+                        <h5>UPSC <span class="sample__title-text">PATHSHALA</span></h5>
+                        <h2>BEST ONLINE COCHING FOR UPSC PREPRATION</h2>
+                    </div>
+                    <div class="sample__img-grp">
+                        <div class="text-center">
+                            <img src="./images/image_ass.png" class="rounded" alt="img">
+                          </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="sample__form-container">
+
+                        <div class="sample__form-title">
+                            <h3>Book A free  Demo Class</h3>
+                            <span class="sample__text">limited seats avilable</span>
+                        </div>
+                        <div class="sample__form">
+                            <form>
+                                <div class="centered">
+                                    <label><input type="number" class="field" id="number" maxlength="10" minlength="10" onblur="noFocusout()" required><span
+                                            class="placeholder">Mobile Number</span></label>
+                                            <span id="error-no" class=" error-span"></span>
+                                </div>
+                                <div class="centered">
+                                    <label><input type="text" class="field" id="fullname" onblur="checkEmail(this.value)" required><span
+                                            class="placeholder">Full Name</span></label>
+                                            <span id="error-name" class=" error-span"></span>
+                                </div>
+                                <div class="centered">
+                                    <div>
+
+                                        <label><input type="text" class="field" id="emailid" required><span
+                                            class="placeholder">Email</span></label>
+                                        </div>
+                                            <span  id="error-email" class=" error-span"></span>
+                                </div>
+                                <div class="centered">
+                                    <div class="col centered-col">
+                                        <label class="dropdown-label"> what describes you the best </label>
+                                        <select name="select" class="dropdown feild" id="select-option">
+                                        <option value="selectOption" style="display: none;" selected disabled>Select Option</option>
+                                        <option value="CollegeStudent" >College Student</option>
+                                            <option value="WorkingProfessional" >Working professional</option>
+                                            <option value="Full-timeAspirant">Full-time aspirant</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                          
+                                    </div>
+                                </div>
+
+                                <div class="sample__btn-grp">
+                                    <button class="sample__form--submit"  id="btn" > Submit</button>
+
+                                </div> 
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="./validate.js"></script>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
